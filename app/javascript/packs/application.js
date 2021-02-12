@@ -8,6 +8,7 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require('jquery')
+require('../articles') // application.jsの1つ上の階層にarticles.jsがあるため、../を使って記述
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
